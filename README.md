@@ -6,7 +6,6 @@ Proyek ini merupakan tugas akhir untuk mata kuliah Pemrosesan Teks pada semester
 1. **Menganalisis Data Ulasan:** Mengumpulkan dan menganalisis ulasan produk dari platform e-commerce Tokopedia untuk mengevaluasi kepuasan pelanggan.
 2. **Membangun Model Klasifikasi:** Membangun model machine learning menggunakan teknik pemrosesan teks dan algoritma klasifikasi untuk mengkategorikan ulasan menjadi tiga label kepuasan: puas, netral, dan tidak puas.
 3. **Evaluasi Model:** Mengevaluasi kinerja model dengan berbagai metode ekstraksi fitur dan algoritma klasifikasi untuk menentukan pendekatan terbaik dalam memprediksi kepuasan pelanggan.
-4. **Pemberian Rekomendasi:** Menyediakan rekomendasi untuk pelaku bisnis berdasarkan hasil analisis untuk meningkatkan kualitas produk dan layanan.
 
 ## 📊 Dataset
 
@@ -36,3 +35,20 @@ Hasil evaluasi menunjukkan bahwa model tanpa resampling umumnya memiliki akurasi
 | **Fashion** | 93%                     | 71%-89%                 |
 | **Elektronik** | 93%                 | 65%-86%                 |
 | **Pertukangan** | 94%-95%              | 47%-93%                 |
+
+## Graphical User Interface
+
+<img width="562" alt="Screenshot 2024-07-07 at 16 53 12" src="https://github.com/FerdiRJ/Klasifikasi-Kepuasan-Pelanggan-pada-Data-Ulasan-Penjualan-di-E-commerce/assets/131805279/b9589d77-a565-4786-9589-926380035408">
+
+**Gambar 1.** User memilih kategori terlebih dahulu sebelum memasukkan ulasan
+<img width="562" alt="Screenshot 2024-07-07 at 16 54 22" src="https://github.com/FerdiRJ/Klasifikasi-Kepuasan-Pelanggan-pada-Data-Ulasan-Penjualan-di-E-commerce/assets/131805279/79b5e20d-fac7-4ea3-aa5a-35dd323ab7f0">
+
+**Gambar 2.** User memasukkan ulasan lalu klik button analisis untuk mengetahui hasil analisis
+kepuasan
+<img width="557" alt="Screenshot 2024-07-07 at 16 54 43" src="https://github.com/FerdiRJ/Klasifikasi-Kepuasan-Pelanggan-pada-Data-Ulasan-Penjualan-di-E-commerce/assets/131805279/b73b2b0f-1715-4b94-8971-b44cb1056199">
+
+**Gambar 3.** User memasukkan file csv jika memiliki lebih dari satu ulasan
+<img width="545" alt="Screenshot 2024-07-07 at 16 55 10" src="https://github.com/FerdiRJ/Klasifikasi-Kepuasan-Pelanggan-pada-Data-Ulasan-Penjualan-di-E-commerce/assets/131805279/d07397ed-1b6b-46b6-952f-6281efd7f7e8">
+
+**Gambar 4.** Setelah keluar hasil analisis kepuasan, user dapat mengekspor hasil analisis ke
+dalam file csv
